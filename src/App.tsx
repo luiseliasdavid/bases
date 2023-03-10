@@ -1,4 +1,4 @@
-import { Counter } from "./bases/Counter";
+import { CounterBY } from "./bases/CounterBy";
 
 
 
@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-      <Counter initialValue={15} />
+      <CounterBY initialValue={15} />
+      
     </>
   );
 }
